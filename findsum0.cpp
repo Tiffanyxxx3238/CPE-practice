@@ -9,6 +9,7 @@ int main(){
 		for(int i=7;i>=4; i--){
 			if(myNum[k]+myNum[i]==0){
 				cout<<myNum[k]<<"+"<<myNum[i]<<"和為0\n";
+				printf("%d+%d和為0",myNum[k],myNum[i]); 
 			}
 			else{
 			}
